@@ -1,10 +1,11 @@
 
+import Router from './router/Router';
+
 
 function App() {
   return (
-    <div >
-      sadas
-    </div>
+    
+    <Router/>
   );
 }
 
