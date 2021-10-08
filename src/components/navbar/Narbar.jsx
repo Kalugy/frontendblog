@@ -33,14 +33,14 @@ export default function NavBar() {
             Services
           </NavLink>
           <NavLink to='/contact-us' activeStyle>
-            Contact Us
+            Contact
           </NavLink>
-          <NavLink to='/sign-up' activeStyle>
+          <NavLink to='/join-us' activeStyle>
             Join Us
           </NavLink>
         </NavMenu>
         <NavBtn>
-          <NavBtnLink to='/sign-in'>Log in</NavBtnLink>
+          <NavBtnLink to='/sign-in'>Sign In</NavBtnLink>
         </NavBtn>
       </Nav>
   );

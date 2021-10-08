@@ -6,6 +6,7 @@ import {
   Route
 } from "react-router-dom";
 import Header from "../components/header/Header";
+import Auth from "../components/auth/Auth";
 
 export default function App() {
   return (
@@ -18,11 +19,11 @@ export default function App() {
           <Route path="/services">
             <Services />
           </Route>
-          <Route path="/contact-us">
+          <Route path="/contact">
             <Contact />
           </Route>
-          <Route path="/sign-up">
-            <SignUp />
+          <Route path="/join-us">
+            <Auth />
           </Route>
           <Route path="/sign-in">
             <SignIn />
