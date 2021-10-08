@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 export const Nav = styled.nav`
   background: #000;
-  height: 80px;
+  height: 60px;
   display: flex;
   justify-content: space-between;
   padding: 0.5rem calc((100vw - 1000px) / 2);
@@ -32,7 +32,7 @@ export const NavMenu = styled.div`
   display: flex;
   align-items: center;
   margin-right: -24px;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 870px) {
     display: none;
   }
 `;
@@ -41,7 +41,7 @@ export const NavBtn = styled.nav`
   display: flex;
   align-items: center;
   margin-right: 24px;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 870px) {
     display: none;
   }
   color:red;

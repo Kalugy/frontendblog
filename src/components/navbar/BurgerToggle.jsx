@@ -12,7 +12,7 @@ background-color: red;
 
 display: none;
   color: #fff;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 870px) {
     display: block;
     position: absolute;
     top: 0.6rem;
