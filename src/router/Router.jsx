@@ -17,9 +17,7 @@ export default function App() {
       <Router>
         <div className="main">
         <Navbar />
-        
         <Switch>
-          
           <Route path="/about">
             <About />
           </Route>
