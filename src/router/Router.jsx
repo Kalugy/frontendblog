@@ -7,12 +7,19 @@ import {
 } from "react-router-dom";
 import Header from "../components/header/Header";
 import Auth from "../components/auth/Auth";
+import Home from "../components/home/Home";
+import Services from "../components/services/Services";
+
+import "./test.css"
 
 export default function App() {
   return (
       <Router>
-        <Navbar/>
+        <div className="main">
+        <Navbar />
+        
         <Switch>
+          
           <Route path="/about">
             <About />
           </Route>
@@ -29,21 +36,19 @@ export default function App() {
             <SignIn />
           </Route>
           <Route path="/">
-            <Header />
+            <div>
+            <Home />
+            <Services />
+            </div>
           </Route>
         </Switch>
+        </div>
       </Router>
   );
 }
 
-function Home() {
-  return <h2>Home</h2>;
-}
 function About() {
   return <h2>About</h2>;
-}
-function Services() {
-  return <h2>Services</h2>;
 }
 function Contact() {
   return <h2>Contact</h2>;
