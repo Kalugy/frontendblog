@@ -8,7 +8,7 @@ export default function Home(){
              
                 <div className="content">
                     <h1>Blog React </h1>
-                    <h2>Front End </h2>
+                    <h2>Front End  </h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus suscipit porro nam libero natus error consequatur sed repudiandae eos quo?</p>
                     <a href="/about-us" className="btn">Blog</a>
                 </div>
