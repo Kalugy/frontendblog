@@ -1,15 +1,14 @@
 
 .view{
     min-height: 100vh;
-    
-
 }
 .background-home{
+    /*
     background-image: url(../../assets/images/landingPage/home-bg-img2.png) ;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: white;
+    background-color: white;*/
 }
 
 /*Flecha para hacer la pagina hacia arriba*/

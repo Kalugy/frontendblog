@@ -19,8 +19,8 @@ function handleSignIn(){
 
 export default function Auth(){
     return (
-        <div>
-            <div className="container">
+        <div className="auth">
+            <div className="container" id="signinup">
                 <div className="forms-container">
                     <div className="signin-signup">
                         <JoinUs/>

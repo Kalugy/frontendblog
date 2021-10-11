@@ -3,7 +3,7 @@ import "./Home.css"
 import HomeImage from "../../../assets/images/landingPage/computer-home.png"
 export default function Home(){
     return(
-        <section className="section-home home">
+        <section className="section-home home" id="home">
              
                 <div className="content">
                     <h1>Blog React </h1>

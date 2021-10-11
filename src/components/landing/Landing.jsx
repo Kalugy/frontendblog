@@ -1,5 +1,6 @@
-import React from "react";
+import React,{useState} from "react";
 import Navbar from "./navbar/Navbar";
+import Auth from "../auth/Auth";
 import Home from "./home/Home";
 import About from "./about/About"
 import Services from "./services/Services";
@@ -8,14 +9,40 @@ import Pricing from "./pricing/Pricing";
 import Contact from "./contact/Contact";
 import "./Landing.css"
 
+const ChildComponent = ({ onClick, count }) => {
+    return (
+        <button onClick={onClick}>
+           Click me {count}
+        </button>
+      )
+  };
+
+ 
 
 export default function Landing() {
-  return (
+
+    const [count, setCount] = useState(false);
+    const toggleShow = () => {
+      setCount(!count)
+    }
+    return (
         <div>
-            <div className="view background-home">
-                <Navbar />
-                <Home />
+            
+            <div className="view">
+                
+                <div >
+                     <Navbar onClick={toggleShow} count={count}/>
+                    {count === false &&
+                     <Home />
+                    }
+                    {count === true &&
+                     <Auth />
+                    }
+                </div> 
+                
             </div>
+            
+            
             {/**
             <div className="view">
                 <About />

@@ -33,15 +33,17 @@ header .navbar a{
 header .navbar a:hover{
     color:var(--pallete4);
 }
-header .navbar button{
+header .navbar .btn{
     font-size: 1.7rem;
     margin-left: 2rem;
-    color:var(--pallete3);
+    color:white;
 }
+
 
 header .navbar button:hover{
     color:var(--pallete4);
 }
+
 
 header input{
     display: none;
@@ -55,7 +57,7 @@ header label{
     opacity: 0;
 }
 
-@media (max-width:900px){
+@media (max-width:920px){
     header{
         height: 10vh;
     }
