@@ -1,19 +1,13 @@
 
 header{
     height: 12vh;
-    top:0; left:0;
     width:100%;
+    position: fixed;
+    top:0; left:0;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
-
-}
-
-header .content{
+    background:#fff;
+    padding:2rem 9%;
     display: flex;
-    flex-wrap: nowrap;
-    padding: 3rem 9%;
-
-    box-sizing: border-box;
-    width: 100%;
     align-items: center;
     justify-content: space-between;
     z-index: 1000;
@@ -21,32 +15,32 @@ header .content{
 
 header .logo{
     font-size: 2rem;
-    color:var(--purple);
+    color:var(--pallete3);
     font-weight: 3  00;
 }
 
 header .logo span{
     font-weight: 500;
-    color:var(--pink);
+    color:var(--pallete4);
 }
 
 header .navbar a{
     font-size: 2.2rem;
     margin-left: 2rem;
-    color:var(--purple);
+    color:var(--pallete3);
 }
 
 header .navbar a:hover{
-    color:var(--pink);
+    color:var(--pallete4);
 }
 header .navbar button{
     font-size: 1.7rem;
     margin-left: 2rem;
-    color:var(--purple);
+    color:var(--pallete3);
 }
 
 header .navbar button:hover{
-    color:var(--pink);
+    color:var(--pallete4);
 }
 
 header input{
@@ -55,19 +49,20 @@ header input{
 
 header label{
     font-size: 3rem;
-    color:var(--purple);
+    color:var(--pallete3);
     cursor: pointer;
     visibility: hidden;
     opacity: 0;
 }
 
-@media (max-width:768px){
-
+@media (max-width:900px){
+    header{
+        height: 10vh;
+    }
     header label{
         visibility: visible;
         opacity: 1;
     }
-
     header .navbar{
         position: absolute;
         top:100%; left: 0;
@@ -80,6 +75,12 @@ header label{
         transform: scaleY(0);
         opacity: 0;
         transition: .2s linear;
+    }
+
+
+    header label{
+        visibility: visible;
+        opacity: 1;
     }
 
     header .navbar a{
@@ -96,4 +97,6 @@ header label{
     header input:checked ~ label::before{
         content:'\f00d';
     }
+
+
 }

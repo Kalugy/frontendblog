@@ -1,5 +1,4 @@
 import React from "react";
-import Auth from "../auth/Auth";
 import Navbar from "./navbar/Navbar";
 import Home from "./home/Home";
 import About from "./about/About"
@@ -10,20 +9,17 @@ import Contact from "./contact/Contact";
 import "./Landing.css"
 
 
-function test(){
-    window.scrollTo(0, 0);
-}
-
 export default function Landing() {
   return (
         <div>
-            <div className="view">
+            <div className="view background-home">
                 <Navbar />
                 <Home />
             </div>
+            {/**
             <div className="view">
                 <About />
-            </div>
+            </div> 
             <div className="view">
                 <Services />
             </div>
@@ -42,6 +38,7 @@ export default function Landing() {
                     <i className="fa fa-arrow-up fa-stack-1x fa-inverse"></i>
                 </span>
             </a>
+            */}
         </div>
   );
 }

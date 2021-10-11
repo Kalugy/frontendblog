@@ -12,7 +12,7 @@ export default function SignIn() {
         <i className="fas fa-lock"></i>
         <input type="password" placeholder="Password"/>
       </div>
-      <input type="submit" className="btn" value="Login" />
+      <input type="submit" className="btn22" value="Login" />
       <p className="social-text">Or Sign In with social platforms</p>
       <div className="social-media">
         <a href="#" className="social-icon">

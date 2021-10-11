@@ -1,18 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
-
-body{
-    padding: 0 0 0 0;
-  }
-  
-  body,
-  input {
-    font-family: "Poppins", sans-serif;
-  }
 
   .container {
     position: relative;
     width: 100%;
-    min-height:80vh;
+    min-height:92vh;
     overflow: hidden;
 
   }
@@ -131,7 +121,7 @@ form.sign-in-form {
     border-color: #4481eb;
   }
   
-  .btn {
+  .btn22 {
     width: 130px;
     background-color: #5995fd;
     border: none;
@@ -147,7 +137,7 @@ form.sign-in-form {
     line-height: 0px;
   }
   
-  .btn:hover {
+  .btn22:hover {
     background-color: #4d84e2;
   }
 
@@ -221,7 +211,7 @@ form.sign-in-form {
   padding: 0.5rem 0;
 }
 
-.btn.transparent {
+.btn22.transparent {
   margin: 0;
   background: none;
   border: 2px solid #fff;
@@ -335,7 +325,7 @@ form.sign-in-form {
   }
 
   
-  .btn.transparent {
+  .btn22.transparent {
     width: 105px;
     height: 30px;
     font-weight: 600;

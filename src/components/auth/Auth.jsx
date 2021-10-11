@@ -35,7 +35,7 @@ export default function Auth(){
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi eaque officiis 
                                 facilis commodi, beatae quidem deleniti ea dignissimos iure eos magni porro possimus ex perferendis id ratione iste asperiores. Repudiandae?
                             </p>
-                            <button className="btn transparent" id="sign-up-btn" onClick={handleSignIn}>
+                            <button className="btn22 transparent" id="sign-up-btn" onClick={handleSignIn}>
                                 Sign up
                             </button>
                             <img src={LogInImage} className="image" alt=""></img>
@@ -48,7 +48,7 @@ export default function Auth(){
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi eaque officiis 
                                 facilis commodi, beatae quidem deleniti ea dignissimos iure eos magni porro possimus ex perferendis id ratione iste asperiores. Repudiandae?
                             </p>
-                            <button className="btn transparent" id="sign-up-btn" onClick={handleSignUp}>
+                            <button className="btn22 transparent" id="sign-up-btn" onClick={handleSignUp}>
                                 Sign In
                             </button>
                             <img src={SignInImage} className="image" alt="" ></img>
