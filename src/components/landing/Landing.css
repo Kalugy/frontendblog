@@ -2,3 +2,17 @@
 .view{
     min-height: 100vh;
 }
+
+
+/*Flecha para hacer la pagina hacia arriba*/
+.arrow-up{
+    /*display:none;*/
+    background-repeat:no-repeat;
+    font-size:20px;
+    color:black;
+    cursor:pointer;
+    position:fixed;
+    bottom:10px;
+    right:10px;
+    z-index:200;
+}

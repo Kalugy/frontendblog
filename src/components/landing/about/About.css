@@ -1,10 +1,10 @@
 .section-about{
     height: 100vh;
-    background-color: var(--pallete2);
+    background-color: var(--backgroundcolor);
 }
 
 .about{
-    background-image: url(../../../assets/images/landingPage/about-bg.png);
+    background-image: url(../../../assets/images/landingPage/about-bg2.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -16,7 +16,7 @@
 
 .about .title{
     text-align: center;
-    font-size: 5rem;
+    font-size: 6rem;
     
 }
 
@@ -26,3 +26,10 @@
     justify-content: center;
 }
 
+.about .content .text h3{
+    font-size: 4rem;
+    padding: 3% 0;
+}
+.about .content .text p{
+    font-size: 1.3rem;
+}

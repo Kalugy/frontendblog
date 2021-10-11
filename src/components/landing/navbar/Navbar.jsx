@@ -15,11 +15,11 @@ export default function Navbar(){
                 
                 <nav className="navbar">
                     <a href="#about">about</a>
-                    <a href="#features">Services</a>
+                    <a href="#services">Services</a>
                     <a href="#review">Review</a>
                     <a href="#pricing">Pricing</a>
                     <a href="#contact">contact</a>
-                    <button>Sign In/Up</button>
+                    <button >Sign In/Up</button>
                 </nav>
 
             </div>

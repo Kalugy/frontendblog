@@ -9,11 +9,10 @@ import ImagenIcon3 from "../../../assets/images/landingPage/f-icon3.png";
 export default function Services(){
     return(
         <section>
-            <div className="services">
+            <div className="services" id="services">
                 <h1 className="heading"> Services </h1>
-
                 <div className="box-container">
-
+                    
                     <div className="box">
                         <img src={ImagenIcon1} alt=""/>
                         <h3>amazing UI design</h3>
