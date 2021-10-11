@@ -33,3 +33,9 @@
 .about .content .text p{
     font-size: 1.3rem;
 }
+
+@media (max-width:900px) {
+    .about .content{
+        flex-direction: column;
+    }
+}

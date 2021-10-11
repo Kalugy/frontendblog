@@ -9,15 +9,9 @@ import Pricing from "./pricing/Pricing";
 import Contact from "./contact/Contact";
 import "./Landing.css"
 
-const ChildComponent = ({ onClick, count }) => {
-    return (
-        <button onClick={onClick}>
-           Click me {count}
-        </button>
-      )
-  };
-
- 
+function test(){
+    window.scrollTo(0, 0);
+}
 
 export default function Landing() {
 
@@ -27,26 +21,25 @@ export default function Landing() {
     }
     return (
         <div>
-            
             <div className="view">
-                
-                <div >
-                     <Navbar onClick={toggleShow} count={count}/>
-                    {count === false &&
-                     <Home />
-                    }
-                    {count === true &&
-                     <Auth />
-                    }
-                </div> 
-                
+                <Navbar onClick={toggleShow} count={count}/>
+                {count === false && <Home />}
+                {count === true && <Auth /> }
             </div>
-            
-            
-            {/**
+            {count === false &&
+            <div>
             <div className="view">
                 <About />
             </div> 
+                <a onClick={test} className="arrow-up" >
+                <span className="fa-stack">
+                    <i className="fa fa-circle fa-stack-2x"></i>
+                    <i className="fa fa-arrow-up fa-stack-1x fa-inverse"></i>
+                </span>
+                </a>
+            </div> 
+            }
+            {/**
             <div className="view">
                 <Services />
             </div>
@@ -59,12 +52,7 @@ export default function Landing() {
             <div className="view">
                 <Contact />
             </div>
-            <a onClick={test} className="arrow-up" >
-                <span className="fa-stack">
-                    <i className="fa fa-circle fa-stack-2x"></i>
-                    <i className="fa fa-arrow-up fa-stack-1x fa-inverse"></i>
-                </span>
-            </a>
+            
             */}
         </div>
   );
