@@ -17,7 +17,7 @@ const Navbar= ({ onClick, count }) => {
                   <a href="#review">Review</a>
                   <a href="#pricing">Pricing</a>
                   <a href="#contact">contact</a>
-                  <a href="#signinup" className="btn" onClick={onClick} >Sign In/Up</a>
+                  <a href="#signinup" className="btn text-color" onClick={onClick} >Sign In/Up</a>
               </nav>
       </header>
   );

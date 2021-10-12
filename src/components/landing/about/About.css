@@ -32,10 +32,46 @@
 }
 .about .content .text p{
     font-size: 1.3rem;
+    padding: 2rem 0 0 0;
 }
+.about .content .text .parragrap{
+    font-size: 1.3rem;
+    padding: 0 0 2rem 0;
+}
+
+.about .content img{
+    width:641px ;
+    height:541px;
+}
+
+@media (max-width:1200px) {
+    .about .content img{
+        width:500px ;
+        height:400px;
+    }
+}
+
 
 @media (max-width:900px) {
     .about .content{
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
+    
+    .about{
+        background-image: none;
+    }
+    .about .content .text{
+        text-align: center;
+    }
+    .about .content .text h3{
+        font-size: 3rem;
+    }
+}
+
+@media (max-width:500px){
+    .about .content img{
+        width:300px ;
+        height:300px;
+    }
+    
 }
