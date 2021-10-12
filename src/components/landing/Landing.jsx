@@ -31,27 +31,32 @@ export default function Landing() {
             <div className="view">
                 <About />
             </div> 
+            <div className="view2">
+                <Services />
+            </div>
+            <div className="view2">
+                <Review />
+            </div>
+            <div className="view2">
+                <Pricing />
+            </div>
+            <div className="view2">
+                <Contact />
+            </div>
                 <a onClick={test} className="arrow-up" >
                 <span className="fa-stack">
                     <i className="fa fa-circle fa-stack-2x"></i>
                     <i className="fa fa-arrow-up fa-stack-1x fa-inverse"></i>
                 </span>
                 </a>
+
             </div> 
+            
             }
             {/**
-            <div className="view">
-                <Services />
-            </div>
-            <div className="view">
-                <Review />
-            </div>
-            <div className="view">
-                <Pricing />
-            </div>
-            <div className="view">
-                <Contact />
-            </div>
+            
+            
+            
             
             */}
         </div>

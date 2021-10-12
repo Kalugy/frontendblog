@@ -1,6 +1,6 @@
 
 .services{
-    height:100vh;
+    /*height: 100vh;*/
     padding: 6% 8%;
 
 }
@@ -20,7 +20,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
+
 }
 
 .services .box-container .box{
@@ -50,4 +50,16 @@
     font-size: 1.3rem;
     color:#666;
     padding: 1rem 0;
+}
+
+@media (max-width:1200px) {
+    .services{
+        /*height:100vh;*/
+        padding: 6% 8%;
+    }
+    
+    .services .box-container{
+        flex-wrap: wrap;
+    }
+    
 }
