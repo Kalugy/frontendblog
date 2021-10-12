@@ -7,6 +7,7 @@ import Services from "./services/Services";
 import Review from "./review/Review";
 import Pricing from "./pricing/Pricing";
 import Contact from "./contact/Contact";
+import Footer from "./footer/Footer";
 import "./Landing.css"
 
 function test(){
@@ -42,6 +43,9 @@ export default function Landing() {
             </div>
             <div className="view2">
                 <Contact />
+            </div>
+            <div className="view2">
+                <Footer />
             </div>
                 <a onClick={test} className="arrow-up" >
                 <span className="fa-stack">

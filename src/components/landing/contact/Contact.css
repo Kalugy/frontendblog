@@ -1,15 +1,14 @@
 .contact{
-    height: 100vh;
+    /*height: 100vh;*/
     padding: 6% 8%;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
 }
 
 
 .contact form{
-    width: 100%;
+    width: 50%;
     height: 70vh;
     text-align: left;
     background-color: white;
@@ -19,6 +18,7 @@
     border-color: rgb(218, 216, 216);
     border-radius: 2%;
     box-shadow: 0 0 2rem .5rem rgb(211, 210, 210);    
+   
 }
 
 .contact form h3{
@@ -42,6 +42,16 @@
 .contact img{
     width: 80vh;
 
+}
+
+
+@media (max-width:1200px) {
+    .contact {
+        flex-direction: column;
+    }
+    .contact img{
+        width: 70vh;
+    }
 }
 
 
