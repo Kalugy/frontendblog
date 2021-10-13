@@ -56,7 +56,16 @@
 
 
 @media (max-width:500px) {
+    .contact{
+        /*height: 100vh;*/
+        padding: 1% 2%;
+    }
+    
     .contact img{
-        width: 60vh;
+        width: 50vh;
+    }
+    .contact form{
+        padding: .1rem;
+        margin: .1rem;
     }
 }
